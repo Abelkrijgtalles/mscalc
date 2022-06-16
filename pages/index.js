@@ -34,6 +34,20 @@ export default function Home() {
           <Item>Mꜜ</Item>
         </Grid>
      </Grid>
+     <Grid container spacing={3}>
+        <Grid item xs>
+          <Item>%</Item>
+        </Grid>
+        <Grid item xs>
+          <Item>2√x</Item>
+        </Grid>
+        <Grid item xs>
+          <Item>x²</Item>
+        </Grid>
+        <Grid item xs>
+          <Item>1/x</Item>
+        </Grid>
+     </Grid>
    </div>
   )
 }
