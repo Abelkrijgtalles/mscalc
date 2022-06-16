@@ -2,6 +2,8 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-   <h1 className={styles.body}>Hallo Standaard</h1> 
+   <div className={styles.body}>
+      <h1>Hallo Standaard</h1> 
+   </div>
   )
 }
