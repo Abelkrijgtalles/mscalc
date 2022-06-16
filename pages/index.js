@@ -16,36 +16,36 @@ export default function Home() {
       <h1>Standaard</h1>
       <Grid container spacing={3}>
         <Grid item xs>
-          <Item elevation={0}>MC</Item>
+          <Item elevation={0} square={false}>MC</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={0}>MR</Item>
+          <Item elevation={0} square={false}>MR</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={0}>M+</Item>
+          <Item elevation={0} square={false}>M+</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={0}>M-</Item>
+          <Item elevation={0} square={false}>M-</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={0}>MS</Item>
+          <Item elevation={0} square={false}>MS</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={0}>Mꜜ</Item>
+          <Item elevation={0} square={false}>Mꜜ</Item>
         </Grid>
      </Grid>
      <Grid container spacing={3}>
         <Grid item xs>
-          <Item elevation={1}>%</Item>
+          <Item elevation={1} square={false}>%</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={1}>2√x</Item>
+          <Item elevation={1} square={false}>2√x</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={1}>x²</Item>
+          <Item elevation={1} square={false}>x²</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={1}>1/x</Item>
+          <Item elevation={1} square={false}>1/x</Item>
         </Grid>
      </Grid>
    </div>
