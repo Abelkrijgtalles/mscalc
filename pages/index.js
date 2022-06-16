@@ -1,5 +1,7 @@
+import styles from "styles/Home.module.css";
+
 export default function Home() {
   return (
-   <h1>Hallo Standaard</h1> 
+   <h1 style={styles.body}>Hallo Standaard</h1> 
   )
 }
