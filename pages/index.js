@@ -8,6 +8,7 @@ const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   textAlign: 'center',
   color: theme.palette.text.secondary,
+  evaluation: 0
 }));
 
 export default function Home() {
