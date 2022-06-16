@@ -8,6 +8,7 @@ const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   textAlign: 'center',
   color: theme.palette.text.secondary,
+  elevation: 0
 }));
 
 export default function Home() {
@@ -16,36 +17,36 @@ export default function Home() {
       <h1>Standaard</h1>
       <Grid container spacing={3}>
         <Grid item xs>
-          <Item evaluation={0}>MC</Item>
+          <Item>MC</Item>
         </Grid>
         <Grid item xs>
-          <Item evaluation={0}>MR</Item>
+          <Item>MR</Item>
         </Grid>
         <Grid item xs>
-          <Item evaluation={0}>M+</Item>
+          <Item>M+</Item>
         </Grid>
         <Grid item xs>
-          <Item evaluation={0}>M-</Item>
+          <Item>M-</Item>
         </Grid>
         <Grid item xs>
-          <Item evaluation={0}>MS</Item>
+          <Item>MS</Item>
         </Grid>
         <Grid item xs>
-          <Item evaluation={0}>Mꜜ</Item>
+          <Item>Mꜜ</Item>
         </Grid>
      </Grid>
      <Grid container spacing={3}>
         <Grid item xs>
-          <Item evaluation={0}>%</Item>
+          <Item>%</Item>
         </Grid>
         <Grid item xs>
-          <Item evaluation={0}>2√x</Item>
+          <Item>2√x</Item>
         </Grid>
         <Grid item xs>
-          <Item evaluation={0}>x²</Item>
+          <Item>x²</Item>
         </Grid>
         <Grid item xs>
-          <Item evaluation={0}>1/x</Item>
+          <Item>1/x</Item>
         </Grid>
      </Grid>
    </div>
