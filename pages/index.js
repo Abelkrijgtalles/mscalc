@@ -17,13 +17,22 @@ export default function Home() {
       <h1>Standaard</h1>
       <Grid container spacing={3}>
         <Grid item xs>
-          <Item>xs</Item>
-        </Grid>
-        <Grid item xs={6}>
-          <Item>xs=6</Item>
+          <Item>MC</Item>
         </Grid>
         <Grid item xs>
-          <Item>xs</Item>
+          <Item>MR</Item>
+        </Grid>
+        <Grid item xs>
+          <Item>M+</Item>
+        </Grid>
+        <Grid item xs>
+          <Item>M-</Item>
+        </Grid>
+        <Grid item xs>
+          <Item>MS</Item>
+        </Grid>
+        <Grid item xs>
+          <Item>Mꜜ</Item>
         </Grid>
      </Grid>
    </div>
