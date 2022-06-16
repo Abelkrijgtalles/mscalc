@@ -1,17 +1,8 @@
 @font-face {
     font-family: "Hallo";
-    src: url("/SEGOEUI.TTF");
+    src: url("/SEGUIEMJ.TTF");
 }
 
 .body{
     font-family: "Hallo";
-}
-
-@font-face {
-    font-family: "EmojiDing";
-    src: url("/SEGUIEMJ.TTF");
-}
-
-.emojiding{
-    font-family: "EmojiDing";
 }
