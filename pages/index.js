@@ -36,16 +36,16 @@ export default function Home() {
      </Grid>
      <Grid container spacing={3}>
         <Grid item xs>
-          <Item elevation={0}>%</Item>
+          <Item elevation={1}>%</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={0}>2√x</Item>
+          <Item elevation={1}>2√x</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={0}>x²</Item>
+          <Item elevation={1}>x²</Item>
         </Grid>
         <Grid item xs>
-          <Item elevation={0}>1/x</Item>
+          <Item elevation={1}>1/x</Item>
         </Grid>
      </Grid>
    </div>
